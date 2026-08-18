@@ -1,15 +1,15 @@
 import React from 'react';
 import { AiTwotoneApi } from 'react-icons/ai';
 import { DiJavascript, DiMongodb, DiSqllite } from 'react-icons/di';
-import { FaPhp } from 'react-icons/fa';
+import { FaAws, FaPhp } from 'react-icons/fa';
 import { FaCss3, FaGitAlt, FaHtml5, FaJava, FaLaravel } from 'react-icons/fa6';
 import { GiTBrick } from 'react-icons/gi';
 import { GrMysql } from 'react-icons/gr';
 import { IoLogoNodejs } from 'react-icons/io';
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5"
 import { MdJavascript } from 'react-icons/md';
-import { RiNextjsFill } from 'react-icons/ri';
-import { SiExpress, SiPostman } from 'react-icons/si';
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { SiComposer, SiExpress, SiInertia, SiPostman } from 'react-icons/si';
 
 
 const Skills = () => {
@@ -83,7 +83,13 @@ const Skills = () => {
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Next Js</h1>
           </div>
         </div>
+  <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
+          <div className='flex flex-col items-center justify-center'>
 
+            <span className='text-6xl text-center'> <SiInertia className='group-hover:text-[#8c14ee] text-gray-500' /></span>
+            <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Inertia Js</h1>
+          </div>
+        </div>
 
         <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
           <div className='flex flex-col items-center justify-center'>
@@ -100,6 +106,13 @@ const Skills = () => {
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>CSS3</h1>
           </div>
         </div>
+        <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
+          <div className='flex flex-col items-center justify-center'>
+
+            <span className='text-6xl text-center'> <RiTailwindCssFill className='group-hover:text-[#2c76e4] text-gray-500' /></span>
+            <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Tailwind CSS</h1>
+          </div>
+        </div>
 
 
         <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
@@ -112,8 +125,24 @@ const Skills = () => {
         <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
           <div className='flex flex-col items-center justify-center'>
 
+            <span className='text-6xl text-center'> <FaAws
+              className='group-hover:text-[#FF9900] text-gray-500' /></span>
+            <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>AWS</h1>
+          </div>
+        </div>
+        <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
+          <div className='flex flex-col items-center justify-center'>
+
             <span className='text-6xl text-center'> <SiPostman className='group-hover:text-[#f5d209] text-gray-500' /></span>
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>PostMan</h1>
+          </div>
+        </div>
+      
+        <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
+          <div className='flex flex-col items-center justify-center'>
+
+            <span className='text-6xl text-center'> <SiComposer className='group-hover:text-[#6E4A30] text-gray-500' /></span>
+            <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Composer</h1>
           </div>
         </div>
 
