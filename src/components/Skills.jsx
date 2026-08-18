@@ -83,7 +83,7 @@ const Skills = () => {
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Next Js</h1>
           </div>
         </div>
-  <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
+        <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
           <div className='flex flex-col items-center justify-center'>
 
             <span className='text-6xl text-center'> <SiInertia className='group-hover:text-[#8c14ee] text-gray-500' /></span>
@@ -137,7 +137,7 @@ const Skills = () => {
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>PostMan</h1>
           </div>
         </div>
-      
+
         <div data-aos="zoom-in" className='border-[#2A1454] hover:bg-[#2A1454] group bg-[#140C1C] border hover:border-[#543a8b] flex justify-center items-center hover:shadow-sm hover:shadow-[#A074F9]  py-4 mt-3 rounded-2xl duration-300'>
           <div className='flex flex-col items-center justify-center'>
 
@@ -145,16 +145,6 @@ const Skills = () => {
             <h1 className='text-xl text-[#543a8b] text-center group-hover:text-[#A074F9] my-auto'>Composer</h1>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
 
       </div>
 
